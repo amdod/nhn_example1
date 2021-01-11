@@ -1,0 +1,180 @@
+CRITICAL - 2021-01-11 00:19:42 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:19:44 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:19:53 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:23:47 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:24:24 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:24:29 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:29:02 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:29:07 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:29:29 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:30:43 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:30:44 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:30:49 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:39:31 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:39:44 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:39:50 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:39:54 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:42:43 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:42:46 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:51:01 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-11 00:51:32 --> Invalid file: index.html
+#0 /Users/nhn/Sites/nhn_example1/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 /Users/nhn/Sites/nhn_example1/system/Common.php(1119): CodeIgniter\View\View->render('index.html', Array, true)
+#2 /Users/nhn/Sites/nhn_example1/app/Controllers/Home.php(7): view('index.html')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/nhn/Sites/nhn_example1/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

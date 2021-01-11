@@ -1,4 +1,4 @@
-# nhn_example1
+# board
 
 ## Project setup
 ```
