@@ -1,4 +1,4 @@
-# board
+# frontend
 
 ## Project setup
 ```
