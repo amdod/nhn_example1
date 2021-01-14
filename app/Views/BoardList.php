@@ -23,20 +23,55 @@
 <div id="app-2"> 
     <template>
         <v-container>
-            <v-data-table 
-                :headers="headers" 
-                :items="board" 
-                :items-per-page="5" 
-                class="elevation-1" 
-                @click:row="rowClick" 
-            > 
-            </v-data-table> 
-            <v-row> 
-                <v-btn outlined color="blue" @click="writeClick" > 작성 </v-btn>
-            </v-row>
+            <v-simple-table>
+            <template v-slot:default>
+            <thead>
+            <tr>
+                <th class="text-left">
+                    Number
+                    </th>
+                <th class="text-left">
+                Title
+                </th>  
+                <th class="text-left">
+                User
+                </th>
+                <th class="text-left">
+                Create Date
+                </th>  
+            </tr>
+            </thead>
+            <tbody>
+            <tr v-for="item in board"
+                :key = "item.number"
+                @click="rowClick(item.number)"
+            >
+                <td>{{ item.number }}</td>
+                <td>{{ item.title }}</td>
+                <td>{{ item.id }}</td>
+                <td>{{ item.create_date }}</td>
+            </tr>
+            </tbody>
+            </template>
+            </v-simple-table>
+            </template>
+
+            
+        </v-container>
+    </template>
+    <template>
+        <v-container>
+                <v-row
+                    align="center"
+                    justify="space-around"
+                >
+                <v-btn @click="writeClick">
+                    글쓰기
+                </v-btn>
         </v-container>
     </template>
 </div>
+
 
 
 
@@ -73,25 +108,14 @@ new Vue({
             })
             },
         writeClick() { 
-            window.location.href = `./home/boardwrite` 
+            window.location.href = `http://localhost/public/home/boardwrite` 
         }, 
         rowClick(number) {
-            window.location.href = `./home/boardview/${number}`;
+            window.location.href = `http://localhost/public/home/boardview/${number}`;
         } },
 
         data () {
             return { 
-                headers: [ 
-                    { 
-                        text: 'Number', 
-                        align: 'left', 
-                        sortable: false, 
-                        value: 'number', 
-                    }, 
-                    { text: 'Title', value: 'title' }, 
-                    { text: 'Create Date', value: 'create_date' },
-                    { text: 'Update Date', value: 'modify_date' }
-                ], 
             board: [], 
         }
     }

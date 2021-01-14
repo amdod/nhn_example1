@@ -19,7 +19,7 @@ class BoardController extends ResourceController
     public function board($number = null)
     {
         $model = new BoardModel();
-        $data = $model->getWhere(['number' => $number])->getResult();
+        $data = $model->find($number);
         if($data){
             return $this->respond($data);
         }else{

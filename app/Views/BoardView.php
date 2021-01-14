@@ -7,57 +7,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
     <meta charset="utf-8"/>
     <title>
-        글쓰기
+        게시판
     </title>
 </head>
 <body>
 
-<div id="app-1">
-    <template>
-    <v-app-bar> 
-      실습과제 1 게시판 만들기
-    </v-app-bar> 
-    </template>
-</div>
 
-<div id="app-2">
+<div id="app">
 <template>
-    <v-form>
         <v-container>
-            <v-row>
-                제목
-            </v-row>
-            <v-row>
-                {{ title }}
-            </v-row>
-            <v-row>
-                내용
-            </v-row>
-            <v-row>
-                {{ content }}
-            </v-row>
-            <v-row>
-            <v-btn block outlined color="blue" @click="listClick"> 목록 </v-btn>
-            </v-row>
+        <v-app-bar> 
+        {{board['title']}}
+        </v-app-bar> 
+            <v-card width="100%" height="400" elevation="10">
+             
+            <v-card-subtitle>
+            <p> 작성자: {{board['id']}} </br>
+             작성 날짜: {{board['modify_date']}}</p>
+             </v-card-subtitle>
+             <v-card-text>
+            <div class="text--primary">
+                {{board['content']}}
+            </div>
+            </v-card-text>
+            </v-card>
+
+            <div align="left">
+            <v-btn color="black">
+            수정하기
+            </v-btn>
+
+            <v-btn color="black">
+            삭제하기
+            </v-btn>
+            </div>
+
+            <div align="right">
+            <v-btn color="black" @click="listClick">
+            목록으로
+            </v-btn>
+            </div>
+
         </v-container>
-    </v-form>
 </template>
 </div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script>
-new Vue({
-  el: '#app-1',
-  vuetify: new Vuetify(),
-})
-</script>
+
 
 <script> 
 
 new Vue({
-    el: '#app-2',
+    el: '#app',
     vuetify: new Vuetify(),
     
     created() { 
@@ -66,8 +70,10 @@ new Vue({
     
     methods: { 
         fetch() { 
+            const data = location.pathname.split('/');
+            const number = data[data.length - 1];
             console.log('fetch list') 
-            axios.get('http://localhost/public/boardcontroller/board/${number}')
+            axios.get(`http://localhost/public/boardcontroller/board/${number}`)
             .then((response) => {
                 console.log(response)
                 this.board = response.data;
@@ -77,7 +83,7 @@ new Vue({
             })
             },
         listClick() { 
-            window.location.href = `./home`
+            window.location.href = `http://localhost/public/home`
         }, 
         deleteClick(item) {
             this.$router.push('/view/' + item.seq)
@@ -85,8 +91,15 @@ new Vue({
 
         data() {
             return {
-                title : "",
-                content: ""
+                board: {
+                    number: '',
+                    title: '',
+                    content: '',
+                    id: '',
+                    create_date: '',
+                    password: '',
+                    modify_date: ''
+                }
             }
         }
     
