@@ -40,3 +40,549 @@ CRITICAL - 2021-01-14 02:27:21 --> Use of undefined constant CURRENT_TIMESTAMP -
 #3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2021-01-14 07:45:57 --> Use of undefined constant CURRENT_TIMESTAMP - assumed 'CURRENT_TIMESTAMP' (this will throw an Error in a future version of PHP)
+#0 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/Users/nhn/Site...', 38, Array)
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-14 07:48:24 --> Use of undefined constant CURRENT_TIMESTAMP - assumed 'CURRENT_TIMESTAMP' (this will throw an Error in a future version of PHP)
+#0 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/Users/nhn/Site...', 38, Array)
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-14 08:00:13 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 08:04:58 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 08:06:13 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 08:06:19 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 08:08:52 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 08:10:06 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 08:12:17 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 08:12:40 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 08:13:00 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 08:15:35 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 08:16:12 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 08:19:05 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 08:57:28 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:00:36 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:02:21 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:03:33 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:03:38 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:03:39 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:03:39 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:03:39 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:03:40 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:03:40 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:03:41 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:03:41 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:03:41 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:03:41 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:03:42 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:05:41 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:06:03 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:09:36 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:24:45 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:27:56 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:30:48 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:33:59 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:34:43 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:34:58 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:35:01 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:35:05 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:35:44 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:36:43 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:43:58 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:45:45 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:48:28 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:48:29 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:49:11 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:49:11 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:49:13 --> Class 'App\Controllers\Time' not found
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:50:33 --> Call to undefined function App\Controllers\now()
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:50:37 --> Call to undefined function App\Controllers\now()
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:51:02 --> Call to undefined function App\Controllers\now()
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:52:10 --> Call to undefined function App\Controllers\now()
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:52:11 --> Call to undefined function App\Controllers\now()
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:53:36 --> Call to undefined function App\Controllers\now()
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:56:03 --> Call to undefined function App\Controllers\now()
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:56:55 --> Call to undefined function App\Controllers\now()
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:57:08 --> Call to undefined function App\Controllers\now()
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 09:58:09 --> Call to undefined function App\Controllers\now()
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 10:05:13 --> Unknown column 'created_at' in 'field list'
+#0 /Users/nhn/Sites/nhn_example1/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `bo...')
+#1 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 /Users/nhn/Sites/nhn_example1/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 /Users/nhn/Sites/nhn_example1/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(40): CodeIgniter\Model->insert(Array)
+#6 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#7 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#8 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-14 10:11:32 --> Unknown column 'created_at' in 'field list'
+#0 /Users/nhn/Sites/nhn_example1/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `bo...')
+#1 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 /Users/nhn/Sites/nhn_example1/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 /Users/nhn/Sites/nhn_example1/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(40): CodeIgniter\Model->insert(Array)
+#6 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#7 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#8 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-14 10:11:33 --> Unknown column 'created_at' in 'field list'
+#0 /Users/nhn/Sites/nhn_example1/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `bo...')
+#1 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 /Users/nhn/Sites/nhn_example1/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 /Users/nhn/Sites/nhn_example1/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(40): CodeIgniter\Model->insert(Array)
+#6 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#7 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#8 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-14 10:11:34 --> Unknown column 'created_at' in 'field list'
+#0 /Users/nhn/Sites/nhn_example1/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `bo...')
+#1 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 /Users/nhn/Sites/nhn_example1/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 /Users/nhn/Sites/nhn_example1/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(40): CodeIgniter\Model->insert(Array)
+#6 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#7 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#8 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-14 10:11:34 --> Unknown column 'created_at' in 'field list'
+#0 /Users/nhn/Sites/nhn_example1/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `bo...')
+#1 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 /Users/nhn/Sites/nhn_example1/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 /Users/nhn/Sites/nhn_example1/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(40): CodeIgniter\Model->insert(Array)
+#6 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#7 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#8 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-14 10:11:47 --> Unknown column 'created_at' in 'field list'
+#0 /Users/nhn/Sites/nhn_example1/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `bo...')
+#1 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 /Users/nhn/Sites/nhn_example1/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 /Users/nhn/Sites/nhn_example1/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(40): CodeIgniter\Model->insert(Array)
+#6 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#7 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#8 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-14 10:13:40 --> Unknown column 'created_at' in 'field list'
+#0 /Users/nhn/Sites/nhn_example1/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `bo...')
+#1 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 /Users/nhn/Sites/nhn_example1/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 /Users/nhn/Sites/nhn_example1/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(40): CodeIgniter\Model->insert(Array)
+#6 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#7 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#8 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-14 10:26:09 --> Unknown column 'created_at' in 'field list'
+#0 /Users/nhn/Sites/nhn_example1/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `bo...')
+#1 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 /Users/nhn/Sites/nhn_example1/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 /Users/nhn/Sites/nhn_example1/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(40): CodeIgniter\Model->insert(Array)
+#6 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#7 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#8 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-14 10:30:34 --> Unknown column 'created_at' in 'field list'
+#0 /Users/nhn/Sites/nhn_example1/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `bo...')
+#1 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 /Users/nhn/Sites/nhn_example1/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 /Users/nhn/Sites/nhn_example1/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(40): CodeIgniter\Model->insert(Array)
+#6 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#7 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#8 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-14 10:31:28 --> Unknown column 'created_at' in 'field list'
+#0 /Users/nhn/Sites/nhn_example1/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `bo...')
+#1 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 /Users/nhn/Sites/nhn_example1/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 /Users/nhn/Sites/nhn_example1/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(34): CodeIgniter\Model->insert(Array)
+#6 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#7 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#8 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-14 10:32:43 --> Unknown column 'created_at' in 'field list'
+#0 /Users/nhn/Sites/nhn_example1/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `bo...')
+#1 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 /Users/nhn/Sites/nhn_example1/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 /Users/nhn/Sites/nhn_example1/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(34): CodeIgniter\Model->insert(Array)
+#6 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#7 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#8 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-14 10:37:21 --> Unknown column 'created_at' in 'field list'
+#0 /Users/nhn/Sites/nhn_example1/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `bo...')
+#1 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 /Users/nhn/Sites/nhn_example1/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 /Users/nhn/Sites/nhn_example1/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(42): CodeIgniter\Model->insert(Array)
+#6 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#7 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#8 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-14 10:39:33 --> defalut is not a valid database connection group.
+#0 /Users/nhn/Sites/nhn_example1/system/Common.php(263): CodeIgniter\Database\Config::connect('defalut', true)
+#1 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(32): db_connect('defalut')
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-14 10:40:42 --> defalut is not a valid database connection group.
+#0 /Users/nhn/Sites/nhn_example1/system/Common.php(263): CodeIgniter\Database\Config::connect('defalut', true)
+#1 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(32): db_connect('defalut')
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-14 10:44:35 --> Call to undefined method App\Controllers\BoardController::response()
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-14 10:46:57 --> Unknown column 'created_at' in 'field list'
+#0 /Users/nhn/Sites/nhn_example1/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `bo...')
+#1 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 /Users/nhn/Sites/nhn_example1/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 /Users/nhn/Sites/nhn_example1/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(40): CodeIgniter\Model->insert(Array)
+#6 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#7 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#8 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-14 10:49:01 --> Unknown column 'created_at' in 'field list'
+#0 /Users/nhn/Sites/nhn_example1/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `bo...')
+#1 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 /Users/nhn/Sites/nhn_example1/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 /Users/nhn/Sites/nhn_example1/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 /Users/nhn/Sites/nhn_example1/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(40): CodeIgniter\Model->insert(Array)
+#6 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->create()
+#7 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#8 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -7,9 +7,10 @@ class BoardModel extends Model
     protected $table = 'board';
     protected $primaryKey = 'number';
 
+    protected $useTimestamps = true;
     protected $createField = 'create_date';
-    protected $modifyField = 'modify_date';
+    protected $updateField = 'modify_date';
 
-    protected $allowedFields = ['title', 'id', 'password','content', 'create_date', 'modify_date'];
+    protected $allowedFields = ['title', 'id', 'password','content'];
 }
 ?>

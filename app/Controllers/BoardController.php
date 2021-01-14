@@ -30,15 +30,16 @@ class BoardController extends ResourceController
     public function create()
     {
         $model = new BoardModel();
+        $db = db_connect('default');
+        $builder = $db->table('board');
         $data = [
-            'title' => $this->request->getVar('title'),
-            'id' => $this->request->getVar('id'),
-            'password' => $this->request->getVar('password'),
-            'content' => $this->request->getVar('content'),
-            'create_date' => $this->request->getVar(CURRENT_TIMESTAMP),
-            'modify_date' => $this->request->getVar(CURRENT_TIMESTAMP)
+            'title' => $this->request->getPost('title'),
+            'id' => $this->request->getPost('id'),
+            'password' => $this->request->getPost('password'),
+            'content' => $this->request->getPost('content'),
         ];
-        $model->insert($data);
+        
+        $builder->insert($data);
         $response = [
             'status'   => 201,
             'error'    => null,
