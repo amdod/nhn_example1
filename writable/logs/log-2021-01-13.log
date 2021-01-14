@@ -1,0 +1,3 @@
+CRITICAL - 2021-01-13 00:45:40 --> Cannot redeclare App\Controllers\Home::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

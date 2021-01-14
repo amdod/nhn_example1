@@ -1,0 +1,31 @@
+CRITICAL - 2021-01-12 21:04:07 --> Undefined variable: db
+#0 /Users/nhn/Sites/board/app/Controllers/Boardcontroller.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/nhn/Site...', 10, Array)
+#1 /Users/nhn/Sites/board/system/CodeIgniter.php(918): App\Controllers\BoardController->test()
+#2 /Users/nhn/Sites/board/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#3 /Users/nhn/Sites/board/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/nhn/Sites/board/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-12 21:07:28 --> Table 'mydb.table_name' doesn't exist
+#0 /Users/nhn/Sites/board/system/Database/MySQLi/Connection.php(331): mysqli->query('SHOW INDEX FROM...')
+#1 /Users/nhn/Sites/board/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SHOW INDEX FROM...')
+#2 /Users/nhn/Sites/board/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SHOW INDEX FROM...')
+#3 /Users/nhn/Sites/board/system/Database/MySQLi/Connection.php(525): CodeIgniter\Database\BaseConnection->query('SHOW INDEX FROM...')
+#4 /Users/nhn/Sites/board/system/Database/BaseConnection.php(1694): CodeIgniter\Database\MySQLi\Connection->_indexData('`table_name`')
+#5 /Users/nhn/Sites/board/app/Controllers/Boardcontroller.php(11): CodeIgniter\Database\BaseConnection->getIndexData('table_name')
+#6 /Users/nhn/Sites/board/system/CodeIgniter.php(918): App\Controllers\BoardController->test()
+#7 /Users/nhn/Sites/board/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#8 /Users/nhn/Sites/board/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/nhn/Sites/board/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-12 22:23:53 --> Class 'App\Controllers\ProductModel' not found
+#0 /Users/nhn/Sites/board/system/CodeIgniter.php(918): App\Controllers\BoardController->index()
+#1 /Users/nhn/Sites/board/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/board/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/board/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-12 22:26:48 --> Class 'App\Controllers\ProductModel' not found
+#0 /Users/nhn/Sites/board/system/CodeIgniter.php(918): App\Controllers\BoardController->show('\xEC\x9E\x91\xEC\x84\xB1\xEC\x9E\x901')
+#1 /Users/nhn/Sites/board/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/board/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/board/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
