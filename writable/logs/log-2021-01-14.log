@@ -745,3 +745,98 @@ CRITICAL - 2021-01-14 19:50:07 --> Unknown column 'created_at' in 'field list'
 #9 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #10 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
 #11 {main}
+CRITICAL - 2021-01-14 22:50:53 --> Trying to get property 'password' of non-object
+#0 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/nhn/Site...', 42, Array)
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->update()
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-14 22:52:42 --> There is no data to update.
+#0 /Users/nhn/Sites/nhn_example1/system/Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(43): CodeIgniter\Model->update(Array)
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->update()
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-14 22:52:56 --> There is no data to update.
+#0 /Users/nhn/Sites/nhn_example1/system/Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(43): CodeIgniter\Model->update(Array)
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->update('9')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-14 22:54:49 --> There is no data to update.
+#0 /Users/nhn/Sites/nhn_example1/system/Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(43): CodeIgniter\Model->update(Array)
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->update()
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-14 22:54:53 --> There is no data to update.
+#0 /Users/nhn/Sites/nhn_example1/system/Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(43): CodeIgniter\Model->update(Array)
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->update('9')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-14 22:57:35 --> There is no data to update.
+#0 /Users/nhn/Sites/nhn_example1/system/Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(43): CodeIgniter\Model->update(Array, NULL)
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->update('9')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-14 22:59:21 --> There is no data to update.
+#0 /Users/nhn/Sites/nhn_example1/system/Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(43): CodeIgniter\Model->update(Array, NULL)
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->update('9')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-14 23:00:27 --> There is no data to update.
+#0 /Users/nhn/Sites/nhn_example1/system/Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(43): CodeIgniter\Model->update(Array, NULL)
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->update('9')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-14 23:00:46 --> There is no data to update.
+#0 /Users/nhn/Sites/nhn_example1/system/Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(43): CodeIgniter\Model->update(Array, NULL)
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->update('9')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-14 23:04:07 --> There is no data to update.
+#0 /Users/nhn/Sites/nhn_example1/system/Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(43): CodeIgniter\Model->update(Array, NULL)
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->update('9')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-14 23:09:28 --> There is no data to update.
+#0 /Users/nhn/Sites/nhn_example1/system/Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(43): CodeIgniter\Model->update(Array, NULL)
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->update('9')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-14 23:11:06 --> There is no data to update.
+#0 /Users/nhn/Sites/nhn_example1/system/Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(43): CodeIgniter\Model->update(Array, NULL)
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->update('11')
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#4 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

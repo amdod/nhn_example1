@@ -39,26 +39,14 @@ class BoardController extends ResourceController
     {
         $model = new BoardModel();
         
-        if ($this->request->getVar('password') == $model->find($number)->password) {
-            $input = $this->request->getRawInput();
-            $data = [
-                'title' => $this->request->getVar('title'),
-                'content' => $this->request->getVar('content'),
-                'modify_date' => $this->request->getVar(CURRENT_TIMESTAMP)
-            ];
-            $model->update($number, $data);
-            $response = [
-             'status'   => 200,
-             'error'    => null,
-             'messages' => [
-                    'success' => 'Data Updated'
-                ]
-            ];
-            return $this->respond($response); 
-        }
-        else {
-            return $this->failNotFound('Incorrect Password;.');
-        }
+        //if ($this->request->getVar('password') == $model->find($number)->password) {
+        $result = $model->update($number, $_POST);
+
+        return $this->respond($result); 
+        //}
+        //else {
+        //    return $this->failNotFound('Incorrect Password;.');
+        //}
     }
 
     public function delete($number = null)

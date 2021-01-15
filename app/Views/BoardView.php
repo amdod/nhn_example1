@@ -33,7 +33,7 @@
             </v-card>
 
             <div align="left">
-            <v-btn color="black" @click="modifyCLick">
+            <v-btn color="black" @click="modifyClick">
             수정하기
             </v-btn>
 
@@ -109,7 +109,9 @@ new Vue({
             })
         },
         modifyClick() { 
-            window.location.href = `http://localhost/public/home`
+            const temp = location.pathname.split('/');
+            const idx = temp[temp.length - 1];
+            window.location.href = `http://localhost/public/home/boardmodify/${idx}`;
         }
     
     }

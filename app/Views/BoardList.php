@@ -38,7 +38,10 @@
                 </th>
                 <th class="text-left">
                 Create Date
-                </th>  
+                </th>
+                <th class="text-left">
+                Update Date
+                </th>
             </tr>
             </thead>
             <tbody>
@@ -50,6 +53,7 @@
                 <td>{{ item.title }}</td>
                 <td>{{ item.id }}</td>
                 <td>{{ item.create_date }}</td>
+                <td>{{ item.modify_date }}</td>
             </tr>
             </tbody>
             </template>
