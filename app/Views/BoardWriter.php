@@ -114,7 +114,7 @@ new Vue({
                 console.log(error) 
             })
             },
-
+            
 
     }
 })
