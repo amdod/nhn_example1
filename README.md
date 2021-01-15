@@ -33,4 +33,3 @@
 
 ## 데이터베이스 구조
 <img width="1286" alt="6_1_디비환경" src="https://user-images.githubusercontent.com/67546808/104687018-ba003a80-5741-11eb-96c9-120403509203.png">
-
