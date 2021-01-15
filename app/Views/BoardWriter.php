@@ -102,12 +102,12 @@ new Vue({
             form.append("title", this.title);
             form.append("content", this.content);
             form.append("password", this.password);
+            
 
             console.log('fetch list') 
             axios.post(`http://localhost/public/boardcontroller/create`, form)
             .then((response) => {
                 console.log(response)
-                window.location.href = `http://localhost/public/home`
             })
             .catch((error) => {
                 console.log(error) 
