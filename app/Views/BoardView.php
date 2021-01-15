@@ -33,11 +33,11 @@
             </v-card>
 
             <div align="left">
-            <v-btn color="black">
+            <v-btn color="black" @click="modifyCLick">
             수정하기
             </v-btn>
 
-            <v-btn color="black">
+            <v-btn color="black" @click="deleteClick">
             삭제하기
             </v-btn>
             </div>
@@ -64,6 +64,17 @@ new Vue({
     el: '#app',
     vuetify: new Vuetify(),
     
+    data: {
+        board: {
+            id: '',
+            title: '',
+            content: '',
+            password: '',
+            create_date: '',
+            modify_date: ''
+        }
+      },
+
     created() { 
         this.fetch()
     }, 
@@ -85,24 +96,23 @@ new Vue({
         listClick() { 
             window.location.href = `http://localhost/public/home`
         }, 
-        deleteClick(item) {
-            this.$router.push('/view/' + item.seq)
-        } },
-
-        data() {
-            return {
-                board: {
-                    number: '',
-                    title: '',
-                    content: '',
-                    id: '',
-                    create_date: '',
-                    password: '',
-                    modify_date: ''
-                }
-            }
+        deleteClick() {
+            const data = location.pathname.split('/');
+            const number = data[data.length - 1];
+            axios.get(`http://localhost/public/boardcontroller/delete/${number}`)
+            .then((response) => {
+                console.log(response)
+                window.location.href = `http://localhost/public/home`
+            })
+            .catch((error) => {
+                console.log(error) 
+            })
+        },
+        modifyClick() { 
+            window.location.href = `http://localhost/public/home`
         }
     
+    }
 })
 
 </script> 

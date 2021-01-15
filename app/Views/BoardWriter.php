@@ -108,6 +108,7 @@ new Vue({
             axios.post(`http://localhost/public/boardcontroller/create`, form)
             .then((response) => {
                 console.log(response)
+                window.location.href = `http://localhost/public/home`
             })
             .catch((error) => {
                 console.log(error) 

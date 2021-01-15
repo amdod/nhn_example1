@@ -66,15 +66,9 @@ class BoardController extends ResourceController
         $model = new BoardModel();
         $data = $model->find($number);
         if($data){
-            $model->delete($number);
-            $response = [
-                'status'   => 200,
-                'error'    => null,
-                'messages' => [
-                    'success' => 'Data Deleted'
-                ]
-            ];
-            return $this->respondDeleted($response);
+            $result = $model->delete($number);
+            
+            return $this->respondDeleted($result);
         }else{
             return $this->failNotFound('No Data Found with number '.$number);
         }
