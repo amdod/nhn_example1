@@ -15,14 +15,14 @@
 
 <div id="app">
 <template>
-    <v-form>
-        <v-container>
-            <v-row>
-                제목
-            </v-row>
+    <v-form
+    v-model="isFormValid"
+    >
+        <v-container style="maxWidth: 700px;">
             <v-row>
             <v-text-field
             :counter="50" 
+            :rules="[rules.requiredTitle]"
             label="제목" 
             name="title" 
             v-model="title" 
@@ -30,11 +30,9 @@
             </v-text-field>
             </v-row>
             <v-row>
-                작성자
-            </v-row>
-            <v-row>
             <v-text-field
             :counter="10" 
+            :rules="[rules.requiredId]"
             label="작성자" 
             name="id" 
             v-model="id" 
@@ -42,32 +40,29 @@
             </v-text-field>
             </v-row>
                 <v-row>
-                    내용
-                </v-row>
-                <v-row>
                 <v-textarea 
                     filled name="content" 
-                    hint="내용을 입력해주세요." 
+                    :rules="[rules.requiredContent]"
                     v-model="content" 
                     :counter="1000" 
                     maxlength="1000" >
                 </v-textarea>
                 </v-row>
                 <v-row>
-                비밀번호
-                </v-row>
-                <v-row>
                 <v-text-field
                 :counter="4" 
+                :rules="[rules.requiredPassword, rules.passwordRule, rules.passwordRuleMin]"
                 label="비밀번호" 
                 name="password" 
-                v-model="password" 
+                v-model="password"
+                minlength="4"
                 maxlength="4" >
                 </v-text-field>
                 </v-row>
                 
                 <v-row>
                 <v-btn
+                    :disabled="!isFormValid"
                     block outlined color="blue"
                     @click="writeClick">
                         등록
@@ -92,7 +87,22 @@ new Vue({
         id: '',
         title: '',
         content: '',
-        password: ''
+        password: '',
+
+        isFormValid: false,
+
+        rules: {
+          requiredContent: value => !!value || '내용을 입력하세요.',
+          requiredId: value => !!value || '작성자를 입력하세요.',
+          requiredTitle: value => !!value || '제목을 입력하세요.',
+          requiredPassword: value => !!value || '비밀번호를 입력하세요.',
+          passwordRuleMin: v => v.length >= 4 || '비밀번호는 4글자여야 합니다.',
+          passwordRule: v  => {
+                                if (!v.trim()) return true;
+                                if (!isNaN(v) && v >= 0000 && v <= 9999) return true;
+                                  return '0000 부터 9999까지만 가능합니다.';
+                            },
+        }
       },
 
     methods: { 

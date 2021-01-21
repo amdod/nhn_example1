@@ -15,14 +15,14 @@
 
 <div id="app">
 <template>
-    <v-form>
-        <v-container>
-            <v-row>
-                제목
-            </v-row>
+    <v-form
+    v-model="isFormValid"
+    >
+        <v-container style="maxWidth: 700px;">
             <v-row>
             <v-text-field
             :counter="50" 
+            :rules="[rules.requiredTitle]"
             label="수정할 제목을 입력하세요." 
             name="title" 
             v-model="board.title" 
@@ -30,14 +30,11 @@
             >
             </v-text-field>
             </v-row>
-            
-                <v-row>
-                    내용
-                </v-row>
                 
                 <v-row>
                 <v-textarea 
                     filled name="content" 
+                    :rules="[rules.requiredContent]"
                     hint="수정할 내용을 입력해주세요." 
                     v-model="board.content" 
                     :counter="1000" 
@@ -48,6 +45,7 @@
                 <v-row>
                 <v-btn
                     block outlined color="blue"
+                    :disabled="!isFormValid"
                     @click="modifyClick">
                         수정
                 </v-btn>
@@ -75,6 +73,13 @@ new Vue({
             password: '',
             create_date: '',
             modify_date: ''
+        },
+
+        isFormValid: false,
+
+        rules: {
+          requiredContent: value => !!value || '내용을 입력하세요.',
+          requiredTitle: value => !!value || '제목을 입력하세요.',
         }
       },
 

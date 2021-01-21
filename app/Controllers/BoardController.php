@@ -12,7 +12,7 @@ class BoardController extends ResourceController
 	public function index()
 	{
         $model = new BoardModel();
-        $data = $model->findAll();
+        $data = $model->orderBy('modify_date', 'DESC')->findAll();
         return $this->respond($data);
     }
 

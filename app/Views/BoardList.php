@@ -22,25 +22,26 @@
 
 <div id="app-2"> 
     <template>
-        <v-container>
+    <v-app>
+        <v-container style="maxWidth: 900px;">
             <v-simple-table>
             <template v-slot:default>
             <thead>
             <tr>
                 <th class="text-left">
-                    Number
+                    글 번호
                     </th>
                 <th class="text-left">
-                Title
+                제목
                 </th>  
                 <th class="text-left">
-                User
+                작성자
                 </th>
                 <th class="text-left">
-                Create Date
+                글 생성 날짜
                 </th>
                 <th class="text-left">
-                Update Date
+                글 수정 날짜
                 </th>
             </tr>
             </thead>
@@ -58,22 +59,23 @@
             </tbody>
             </template>
             </v-simple-table>
-            </template>
 
             
         </v-container>
-    </template>
-    <template>
-        <v-container>
-                <v-row
-                    align="center"
-                    justify="space-around"
-                >
+
+        <v-container style="maxWidth: 900px;">
                 <v-btn @click="writeClick">
                     글쓰기
                 </v-btn>
+        
+        <div align="right">
+        <span class="grey--text">정렬: 최근 업데이트 순</span>
+
+        </div>
         </v-container>
+    </v-app>
     </template>
+    
 </div>
 
 

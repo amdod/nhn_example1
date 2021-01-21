@@ -1,0 +1,34 @@
+CRITICAL - 2021-01-20 23:20:27 --> Call to a member function orderBy() on array
+#0 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->index()
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-20 23:34:08 --> Call to undefined method App\Models\BoardModel::addField
+#0 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(15): CodeIgniter\Model->__call('addField', Array)
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->index()
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-20 23:34:16 --> Call to undefined method App\Models\BoardModel::addField
+#0 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(15): CodeIgniter\Model->__call('addField', Array)
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->index()
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-20 23:35:25 --> Call to undefined method App\Models\BoardModel::addField
+#0 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(15): CodeIgniter\Model->__call('addField', Array)
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->index()
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-20 23:38:40 --> Call to undefined method App\Models\BoardModel::auto_increment
+#0 /Users/nhn/Sites/nhn_example1/app/Controllers/Boardcontroller.php(15): CodeIgniter\Model->__call('auto_increment', Array)
+#1 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(918): App\Controllers\BoardController->index()
+#2 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BoardController))
+#3 /Users/nhn/Sites/nhn_example1/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/nhn/Sites/nhn_example1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
