@@ -35,7 +35,8 @@
             </div>
             </v-card-text>
             </v-card>
-            
+
+            <v-container>
             <v-dialog
                 v-model="dialog1"
                 persistent
@@ -150,14 +151,13 @@
             <span class="red--text">삭제하기</span>
             </v-btn>
             </div> -->
-            </v-col>
             
             <div align="right">
             <v-btn color="grey lighten-2" @click="listClick">
             <span class="black--text">목록으로</span>
             </v-btn>
             </div>
-            
+            </v-container>
 
         </v-container>
     </v-app>

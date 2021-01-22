@@ -12,17 +12,23 @@
 </head>
 <body>
 
-<div id="app-1">
-    <template>
-    <v-app-bar> 
-      실습과제 1 게시판 만들기
-    </v-app-bar> 
-    </template>
-</div>
-
-<div id="app-2"> 
+<div id="app"> 
     <template>
     <v-app>
+    <v-container>
+    <v-card
+    class="mx-auto"
+    max-width="1000"
+    height="600"
+    elevation="10"
+    >
+    <v-app-bar
+    color="indigo"
+    dark
+    > 
+      자유게시판
+    </v-app-bar>
+    <v-form>
         <v-container style="maxWidth: 900px;">
             <v-simple-table>
             <template v-slot:default>
@@ -72,6 +78,10 @@
         <span class="grey--text">정렬: 최근 업데이트 순</span>
 
         </div>
+        
+        </v-container>
+        </v-form>
+        </v-card>
         </v-container>
     </v-app>
     </template>
@@ -84,17 +94,11 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script>
-new Vue({
-  el: '#app-1',
-  vuetify: new Vuetify(),
-})
-</script>
 
 <script> 
 
 new Vue({
-    el: '#app-2',
+    el: '#app',
     vuetify: new Vuetify(),
     
     created() { 

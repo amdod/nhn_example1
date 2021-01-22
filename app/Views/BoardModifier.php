@@ -15,6 +15,20 @@
 
 <div id="app">
 <template>
+<v-app>
+    <v-container>
+    <v-card
+    class="mx-auto"
+    max-width="800"
+    height="400"
+    elevation="10"
+    >
+    <v-app-bar
+    color="cyan"
+    dark
+    > 
+      글 수정하기
+    </v-app-bar>
     <v-form
     v-model="isFormValid"
     >
@@ -52,6 +66,9 @@
                 </v-row>
         </v-container>
     </v-form>
+    </v-card>
+    </v-container>
+    </v-app>
 </template>
 </div>
 
