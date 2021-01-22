@@ -31,5 +31,16 @@
 ### 게시글 삭제 후 새로운 게시글 추가
 <img width="1418" alt="5_2_삭제후게시글추가" src="https://user-images.githubusercontent.com/67546808/104686977-ac4ab500-5741-11eb-90da-e4ee9ccefe79.png">
 
+# UI 수정
+## 게시판 리스트 view
+<img width="1440" alt="스크린샷 2021-01-22 오후 5 42 29" src="https://user-images.githubusercontent.com/67546808/105468982-f18b5b80-5cda-11eb-8225-48ede5d159fc.png">
+
+## 게시판 생성 view
+<img width="1439" alt="스크린샷 2021-01-22 오후 5 43 55" src="https://user-images.githubusercontent.com/67546808/105469059-0cf66680-5cdb-11eb-914a-2054cded4d3d.png">
+
+## 게시판 수정 view
+<img width="1439" alt="스크린샷 2021-01-22 오후 5 44 23" src="https://user-images.githubusercontent.com/67546808/105469131-213a6380-5cdb-11eb-9d57-61fbf3355805.png">
+
+
 ## 데이터베이스 구조
 <img width="1286" alt="6_1_디비환경" src="https://user-images.githubusercontent.com/67546808/104687018-ba003a80-5741-11eb-96c9-120403509203.png">
